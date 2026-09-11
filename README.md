@@ -108,7 +108,7 @@ Highlights:
 </td>
 <td width="50%" valign="top">
 
-### Meno-J Falsification Engine
+### [Minos-J Falsification Engine](https://github.com/sushan5140/Minos-J)
 
 **Agentic framework for hypothesis generation, criticism and controlled falsification**
 
