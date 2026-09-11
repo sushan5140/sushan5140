@@ -108,20 +108,29 @@ Highlights:
 </td>
 <td width="50%" valign="top">
 
-### [Air Guitar CV](https://github.com/sushan5140/air-guitar-cv)
+### Meno-J Falsification Engine
 
-**Real-time vision-based interaction experiment**
+**Agentic framework for hypothesis generation, criticism and controlled falsification**
 
-A small HCI / computer-vision project using two-hand tracking to select guitar chords and trigger strums through motion.
+An ignorance-first research system for turning uncertain observations into competing explanations, explicit predictions and tests that can actually fail — rather than treating a persuasive LLM answer as a conclusion.
 
-Highlights:
-- MediaPipe Hand Landmarker
-- One Euro filtering
-- per-user calibration
-- velocity-based gesture detection
-- debugging around jitter, responsiveness and camera mirroring
+Core loop:
+- evidence retrieval and independent reasoning
+- strict filtering and pattern extraction
+- competing / rival hypothesis generation
+- critique and falsification
+- executable or statistically testable checks
+- working-theory revision after failures
 
-`Python` `OpenCV` `MediaPipe` `HCI`
+Selected experimental evidence:
+- **Experiment 4:** reduced **9 surviving explanations → 5 competing patterns → 10 distinguishing experiments**, backed by **8 validated primary sources**; every proposed experiment included an effect-size target and explicit failure condition
+- **Experiment 5 (P4-F2):** **falsified** the finite-sample-only explanation; at `n=300`, a sparse-subgroup + inverse-probability + marginal setup retained a **0.7462 coverage gap** with **0.1538 minimum group coverage**, including **14 persistent-failure cells**
+- **Experiment 6 (P4-F1):** confirmed a **structural failure** pattern; the safest tested pairing reached **0.0645 mean gap / 0.8656 minimum coverage / 0 persistent failures**, while inverse-probability + marginal remained the most dangerous at **0.4209 mean gap / 0.4838 minimum coverage**
+- **Experiment 7 v4:** Q1 finished with **9 PASS / 1 SALVAGEABLE** and Q2 with **10 PASS**; Q3 preserved valid checkpoints when execution was blocked by a sandbox network restriction before an external API call
+
+Reproducibility work also preserved **34 historical outputs byte-for-byte**, with manifest/hash checks, compilation checks and credential scanning completed during the architecture refactor.
+
+`LLM Reasoning` `Falsification` `Evaluation` `Trustworthy AI`
 
 </td>
 </tr>
