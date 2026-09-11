@@ -2,11 +2,11 @@
 
 # Susan
 
-### AI / Computer Science · Undergraduate Builder
+### Prospective AI / Computer Science Undergraduate
 
-**Building useful AI products, trustworthy machine-learning systems, and tools for learning & communities.**
+**Interested in trustworthy machine learning, physiological AI, language technology, and research-oriented software systems.**
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=18&duration=3200&pause=900&color=64748B&center=true&vCenter=true&width=720&lines=Full-stack+products+%C2%B7+Applied+AI+%C2%B7+Machine+Learning;Language+technology+%C2%B7+Community+tools+%C2%B7+Research+engineering;Learning+deeply%2C+building+carefully%2C+documenting+honestly" alt="Typing introduction" />
+`Python` · `Machine Learning` · `TypeScript` · `Next.js` · `Computer Vision` · `Research Engineering`
 
 </div>
 
@@ -14,65 +14,75 @@
 
 ## About
 
-I’m **Susan**, an undergraduate-focused AI and Computer Science builder from India.
+I’m **Susan**, an incoming undergraduate student from India preparing to study **Artificial Intelligence / Computer Science**.
 
-I enjoy taking ideas beyond a demo: defining the problem, designing the experience, building the system, testing the difficult parts, and documenting what worked — including the limitations.
+I like working on problems where building the model is only part of the challenge. I’m especially interested in **how models fail, how uncertainty should be communicated, how evaluation can accidentally become misleading, and how research ideas can be turned into usable systems**.
 
-My current interests sit around:
+Most of my current work falls into two directions:
 
-- **Applied AI & full-stack products**
-- **Trustworthy machine learning and uncertainty**
-- **Language-learning technology**
-- **Computer vision and human-computer interaction**
-- **Tools that make complex information easier to use**
+**Research-oriented ML**
+- uncertainty and conformal prediction
+- subject variability in physiological signals
+- leakage-safe evaluation and calibration
+- scientific / biomedical applications of machine learning
+
+**Applied AI systems**
+- language-learning technology
+- education and community platforms
+- computer vision interaction
+- privacy-aware full-stack products
 
 ---
 
-## Selected Work
+## Research Questions I’m Exploring
+
+- **Can uncertainty guarantees remain reliable for individual subjects when population averages hide difficult cases?**
+- **How does personalization change calibration and selective prediction in physiological ML?**
+- **When does an apparently better model metric hide a worse failure mode?**
+- **How can AI systems expose limitations and provenance instead of presenting every prediction as equally trustworthy?**
+
+These questions currently shape much of what I build and read.
+
+---
+
+## Selected Research Work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [KMate](https://github.com/sushan5140/kmate)
-**GKS applicant community & preparation platform**
-
-Full-stack platform for applicant discovery, privacy-aware connections, scholarship resources, university data, interview preparation and moderation workflows.
-
-`Next.js` `TypeScript` `Supabase` `Product Engineering`
-
-</td>
-<td width="50%" valign="top">
-
-### [Manhua Lens](https://github.com/sushan5140/manhua-lens)
-**Multilingual reading & translation browser extension**
-
-Word-by-word reading assistance for Korean, Japanese, Chinese and other languages with offline dictionaries, grammar hints, pronunciation and sentence translation.
-
-`JavaScript` `Browser Extensions` `NLP` `Language Tech`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### [bioconformal](https://github.com/sushan5140/bioconformal)
-**Uncertainty estimation for physiological ML**
 
-A conformal-prediction layer for biosignal models with subject-conditional calibration, empirical coverage tests and explicit failure/limitation reporting.
+**Subject-conditional conformal prediction for biosignal ML**
 
-`Python` `Machine Learning` `Conformal Prediction` `Biosignals`
+Explores distribution-free uncertainty for ECG, PPG, HRV and EDA models, with particular attention to **per-subject coverage rather than population-average coverage**.
+
+Highlights:
+- Mondrian / subject-conditional calibration
+- leakage-safe subject splitting
+- worst-subject coverage analysis
+- explicit insufficient-calibration handling
+- synthetic multi-subject benchmarking with limitations documented
+
+`Python` `Conformal Prediction` `Biosignals` `Statistical ML`
 
 </td>
 <td width="50%" valign="top">
 
 ### [pactstress](https://github.com/sushan5140/pactstress)
-**Personalized wearable stress calibration**
 
-Explores subject-specific physiological calibration, leakage-safe evaluation and selective prediction for wearable stress detection.
+**Personalized calibration for wearable stress detection**
 
-`Python` `scikit-learn` `Signal Processing` `Research Engineering`
+Studies whether physiological features should be interpreted relative to each subject’s own resting baseline instead of only through population statistics.
+
+Highlights:
+- Leave-One-Subject-Out evaluation
+- WESAD validation
+- subject-specific baseline calibration
+- selective prediction / abstention
+- documented failure cases where personalization and conformal calibration do **not** simply improve each other
+
+`Python` `scikit-learn` `Wearable ML` `Signal Processing`
 
 </td>
 </tr>
@@ -81,19 +91,35 @@ Explores subject-specific physiological calibration, leakage-safe evaluation and
 <td width="50%" valign="top">
 
 ### [DPP-4 Scaffold Conformal](https://github.com/sushan5140/dpp4-scaffold-conformal)
-**Molecular docking + uncertainty calibration**
 
-Structure-based virtual screening pipeline combining AutoDock Vina, chemotype clustering and scaffold-conditional conformal calibration.
+**Chemotype-aware uncertainty for molecular docking**
 
-`Python` `RDKit` `Docking` `Statistical ML`
+Combines structure-based virtual screening with scaffold-conditional conformal calibration to study whether pooled uncertainty estimates can fail on specific molecular families.
+
+Highlights:
+- AutoDock Vina pipeline
+- Morgan fingerprints + Butina clustering
+- pooled vs. Mondrian calibration
+- bootstrap robustness analysis
+- explicit discussion of small-group and docking limitations
+
+`Python` `RDKit` `Docking` `Conformal Prediction`
 
 </td>
 <td width="50%" valign="top">
 
 ### [Air Guitar CV](https://github.com/sushan5140/air-guitar-cv)
-**Gesture-controlled computer-vision experiment**
 
-Real-time hand tracking with per-user chord calibration, One Euro filtering, motion-based strum detection and low-latency audio feedback.
+**Real-time vision-based interaction experiment**
+
+A small HCI / computer-vision project using two-hand tracking to select guitar chords and trigger strums through motion.
+
+Highlights:
+- MediaPipe Hand Landmarker
+- One Euro filtering
+- per-user calibration
+- velocity-based gesture detection
+- debugging around jitter, responsiveness and camera mirroring
 
 `Python` `OpenCV` `MediaPipe` `HCI`
 
@@ -103,41 +129,92 @@ Real-time hand tracking with per-user chord calibration, One Euro filtering, mot
 
 ---
 
-## What I Work With
+## Applied Systems
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [KMate](https://github.com/sushan5140/kmate)
+
+**Community and preparation platform for GKS applicants**
+
+A full-stack system built around structured applicant discovery, scholarship data, privacy-aware connections and moderation.
+
+Technical areas I worked with:
+- Next.js + TypeScript
+- Supabase authentication and database flows
+- access control and privacy-sensitive profile data
+- structured scholarship / university data
+- moderation and admin workflows
+
+`Next.js` `TypeScript` `Supabase` `Full-stack`
+
+</td>
+<td width="50%" valign="top">
+
+### [Manhua Lens](https://github.com/sushan5140/manhua-lens)
+
+**Multilingual reading assistant for native web content**
+
+A Chromium extension for word-level reading support across Korean, Japanese, Chinese and other languages.
+
+Technical areas:
+- Manifest V3 extension architecture
+- offline dictionary lookup
+- language-specific segmentation / hints
+- browser text-to-speech
+- explicit dictionary provenance documentation
+
+`JavaScript` `Browser Extensions` `NLP` `Language Tech`
+
+</td>
+</tr>
+</table>
+
+---
+
+## Research & Engineering Habits
+
+I’m still early in my academic journey, so I care more about developing **good research habits** than trying to present myself as an expert.
+
+I try to:
+
+- separate **training, calibration and evaluation** correctly
+- use subject-disjoint or LOSO evaluation when the research question requires it
+- inspect **failure cases**, not only average metrics
+- report when an approach makes results worse
+- document assumptions and limitations
+- keep upstream work and my own contribution clearly attributed
+- make experiments reproducible enough that someone else can inspect the reasoning
+
+---
+
+## Tools I Currently Work With
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit--learn-111827?style=flat-square&logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-111827?style=flat-square&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-111827?style=flat-square&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-111827?style=flat-square&logo=opencv&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=white" />
 <img src="https://img.shields.io/badge/Supabase-111827?style=flat-square&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit--learn-111827?style=flat-square&logo=scikitlearn&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenCV-111827?style=flat-square&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=white" />
 
 </div>
 
 ---
 
-## How I Like to Build
+## What I’m Working Toward
 
-**Problem first.** I prefer projects with a clear reason to exist rather than features added for decoration.
+My goal before and during undergraduate study is to strengthen the fundamentals behind the systems I already enjoy building — **machine learning, probability, algorithms, data structures, optimization, statistics and research methodology**.
 
-**Evidence over claims.** If something is experimental, simulated, inherited from upstream research, or still unfinished, I try to say so clearly.
-
-**Useful > flashy.** Good interfaces matter, but the system underneath should hold up when someone asks how it actually works.
-
-**Learn in public.** My repositories are also a record of experiments, failed assumptions, debugging decisions and technical growth.
-
----
-
-## Current Direction
-
-I’m continuing to deepen my foundations in **AI, computer science, machine learning and software engineering**, while building projects that connect technical work with real users and real problems.
+I’m particularly interested in learning from researchers working on **trustworthy AI, biomedical / physiological ML, intelligent systems, language technology, and applied machine learning**.
 
 <div align="center">
 
-### Build carefully · Learn continuously · Explain clearly
+**Curious enough to build · careful enough to question the result**
 
 </div>
