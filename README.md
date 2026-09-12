@@ -116,25 +116,16 @@ Highlights:
 
 ### [Minos-J Falsification Engine](https://github.com/sushan5140/Minos-J)
 
-**Agentic framework for hypothesis generation, criticism and controlled falsification**
+**Falsification-driven reasoning for LLM research**
 
-An ignorance-first research system for turning uncertain observations into competing explanations, explicit predictions and tests that can actually fail — rather than treating a persuasive LLM answer as a conclusion.
+Explores whether uncertain observations can be turned into **competing hypotheses, explicit predictions and tests that can genuinely fail**, instead of simply producing more persuasive answers.
 
-Core loop:
-- evidence retrieval and independent reasoning
-- strict filtering and pattern extraction
-- competing / rival hypothesis generation
-- critique and falsification
-- executable or statistically testable checks
-- working-theory revision after failures
-
-Selected experimental evidence:
-- **Experiment 4:** reduced **9 surviving explanations → 5 competing patterns → 10 distinguishing experiments**, backed by **8 validated primary sources**; every proposed experiment included an effect-size target and explicit failure condition
-- **Experiment 5 (P4-F2):** **falsified** the finite-sample-only explanation; at `n=300`, a sparse-subgroup + inverse-probability + marginal setup retained a **0.7462 coverage gap** with **0.1538 minimum group coverage**, including **14 persistent-failure cells**
-- **Experiment 6 (P4-F1):** confirmed a **structural failure** pattern; the safest tested pairing reached **0.0645 mean gap / 0.8656 minimum coverage / 0 persistent failures**, while inverse-probability + marginal remained the most dangerous at **0.4209 mean gap / 0.4838 minimum coverage**
-- **Experiment 7 v4:** Q1 finished with **9 PASS / 1 SALVAGEABLE** and Q2 with **10 PASS**; Q3 preserved valid checkpoints when execution was blocked by a sandbox network restriction before an external API call
-
-Reproducibility work also preserved **34 historical outputs byte-for-byte**, with manifest/hash checks, compilation checks and credential scanning completed during the architecture refactor.
+Highlights:
+- rival-hypothesis generation and evidence-grounded critique
+- executable / statistical falsification tests
+- explicit effect-size targets and failure conditions
+- structural vs. finite-sample failure analysis
+- provenance-aware reproducibility with historical-output verification
 
 `LLM Reasoning` `Falsification` `Evaluation` `Trustworthy AI`
 
