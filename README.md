@@ -6,12 +6,11 @@
 
 **Interested in trustworthy machine learning, physiological AI, language technology, and research-oriented software systems.**
 
-<img src="https://img.shields.io/badge/Founder-Nero%20Labs-111827?style=flat-square" alt="Founder · Nero Labs" />
-<img src="https://img.shields.io/badge/Trustworthy-AI-111827?style=flat-square" alt="Trustworthy AI" />
-<img src="https://img.shields.io/badge/Research-Engineering-111827?style=flat-square" alt="Research Engineering" />
-<img src="https://img.shields.io/badge/Open%20Source-Builder-111827?style=flat-square" alt="Open Source Builder" />
-
-<br />
+<p align="center">
+  <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3GEVPu5AEdDVBCbNPqJzWeSTM9e/aefbc1ed-c508-4173-b192-c25dce0813a2.png" width="235" alt="Founder · Nero Labs" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3GEVPu5AEdDVBCbNPqJzWeSTM9e/0decf40f-8d0f-43d4-abc1-5886b1db7d4b.png" width="235" alt="Research Engineering" />
+</p>
 
 `Python` · `Machine Learning` · `TypeScript` · `Next.js` · `Computer Vision` · `Research Engineering`
 
