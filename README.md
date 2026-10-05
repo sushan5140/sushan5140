@@ -12,10 +12,12 @@
 
 ### choose a mode
 
+<sub>▼ click any mode below to open its panel · click again to close</sub>
+
 </div>
 
 <details>
-<summary><b>🧪 R&D MODE</b> — research, hypotheses, benchmarks, failure analysis</summary>
+<summary><b>🧪 R&D MODE</b> — research, hypotheses, benchmarks, failure analysis · <i>click to open</i></summary>
 
 <br/>
 
@@ -112,7 +114,7 @@ Studies subject-specific baselines, LOSO evaluation, selective prediction, and w
 <br/>
 
 <details>
-<summary><b>⚙️ DEV MODE</b> — products, deployed systems, interfaces, shipping</summary>
+<summary><b>⚙️ DEV MODE</b> — products, deployed systems, interfaces, shipping · <i>click to open</i></summary>
 
 <br/>
 
@@ -188,7 +190,7 @@ Video-based listening and context practice with level-based content, guest flows
 <br/>
 
 <details>
-<summary><b>🌙 2:00 AM MODE</b> — tiny experiments, cursed utilities, things that somehow work</summary>
+<summary><b>🌙 2:00 AM MODE</b> — tiny experiments, cursed utilities, things that somehow work · <i>click to open</i></summary>
 
 <br/>
 
