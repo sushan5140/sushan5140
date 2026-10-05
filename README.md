@@ -222,17 +222,17 @@ A playful conversation-analysis experiment with a forensic interface and deliber
 </td>
 <td width="50%" valign="top">
 
-### next victim: TBD
+### [Human CAPTCHA](https://github.com/sushan5140/Human-CAPTCHA)
 
-Reserved for the next project that starts with:
+**You've been online too long. Prove you still exist.**
 
-> “this is so stupid”
+A tiny anti-doomscroll experiment that flips CAPTCHA around: instead of proving you're not a robot, you prove you're still behaving like a conscious human.
 
-and ends with:
+**status:** alive  
+**humanity:** pending verification  
+**NPC risk:** non-zero
 
-> “wait... I would actually use this.”
-
-`weekend builds` `browser experiments` `cursed utilities`
+`Browser Experiment` `Vanilla JS` `Cursed Utility`
 
 </td>
 </tr>
