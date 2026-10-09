@@ -190,21 +190,59 @@ Video-based listening and context practice with level-based content, guest flows
 <br/>
 
 <details>
-<summary><b>🌙 2:00 AM MODE</b> — tiny experiments, cursed utilities, things that somehow work · <i>click to open</i></summary>
+<summary><b>🌙 2:00 AM MODE</b> — odd ideas, tiny escapes, and experiments that got out of hand · <i>click to open</i></summary>
 
 <br/>
 
-> **The part of the profile where good judgment clocks out.**
+> **It's 2 AM. The idea is ridiculous. The repo already exists.**
 
-The rule here is simple:
+A Minecraft sidekick with a memory. A club for doing the bare minimum. A way to remember who you met and why it mattered.
 
-**funny surface · serious engineering underneath**
-
-No generic AI wrappers.  
-No *“chat with your PDF but purple.”*
+**playful on the outside · intentionally built on the inside**
 
 <table>
 <tr>
+<td width="50%" valign="top">
+
+### [Milo](https://github.com/sushan5140/Milo)
+
+**An AI Minecraft companion that remembers your world.**
+
+Not just `/follow`. The idea is a second player who remembers bases, understands goals, and eventually gathers, crafts, and builds alongside you.
+
+**current stage:** V0 scaffold · autonomous errands are next
+
+`Minecraft` `Mineflayer` `Agent Memory`
+
+</td>
+<td width="50%" valign="top">
+
+### [Bare Minimum Club](https://github.com/sushan5140/Bare-minimum-club)
+
+**For when your brain has 2% battery and 37 tabs open.**
+
+Tiny distractions, low-effort comfort, the Regret Button, character-development lore, and quiet company. No motivational speeches required.
+
+**vibe:** no fixing · just surviving
+
+`Interactive Web` `Micro-interactions` `Personal Memory`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [WhoDis](https://github.com/sushan5140/whodis)
+
+**“Wait, who was that—and why should I talk to them?”**
+
+An opt-in event networking utility for remembering people, finding genuine overlap, planning a first conversation, and knowing when to follow up.
+
+**superpower:** turning awkward introductions into context
+
+`Networking` `Privacy-first` `Relationship Memory`
+
+</td>
 <td width="50%" valign="top">
 
 ### [Chatopsy](https://github.com/sushan5140/Chatopsy)
@@ -214,25 +252,36 @@ No *“chat with your PDF but purple.”*
 A playful conversation-analysis experiment with a forensic interface and deliberately dramatic personality.
 
 **status:** somehow works  
-**severity:** questionable  
-**usefulness:** suspiciously high
+**severity:** questionable
 
 `NLP` `Web` `Forensics-ish`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Human CAPTCHA](https://github.com/sushan5140/Human-CAPTCHA)
 
 **You've been online too long. Prove you still exist.**
 
-A tiny anti-doomscroll experiment that flips CAPTCHA around: instead of proving you're not a robot, you prove you're still behaving like a conscious human.
+Instead of proving you're not a bot, this tiny anti-doomscroll experiment asks you to prove you're still acting human.
 
 **status:** alive  
-**humanity:** pending verification  
 **NPC risk:** non-zero
 
 `Browser Experiment` `Vanilla JS` `Cursed Utility`
+
+</td>
+<td width="50%" valign="top">
+
+### The unofficial 2 AM rule
+
+**If it keeps coming back to mind, build a tiny version.**
+
+Some ideas become tools. Some become experiments. Some should probably have stayed in the notes app.
+
+`Curiosity` `Prototypes` `Why Not?`
 
 </td>
 </tr>
