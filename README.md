@@ -16,6 +16,18 @@
 
 </div>
 
+<div align="center">
+
+### 🎃 Halloween Contribution Calendar
+
+<img src="./assets/halloween-contributions.svg" alt="Halloween orange-and-brown calendar of Susan's actual public GitHub contributions, updated daily" width="100%" />
+
+<sub>GitHub's Halloween dark-mode colors, all year round · Auto-updated from my public contribution activity</sub>
+
+</div>
+
+<br/>
+
 <details>
 <summary><b>🧪 R&D MODE</b> — research, hypotheses, benchmarks, failure analysis · <i>click to open</i></summary>
 
