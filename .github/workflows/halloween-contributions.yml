@@ -36,5 +36,13 @@ jobs:
           git add assets/halloween-contributions.svg
           if ! git diff --cached --quiet; then
             git commit -m "Refresh Halloween contribution calendar [skip ci]"
-            git push
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              git fetch origin main
+              git rebase origin/main
+            done
+            echo "Unable to push generated calendar after 3 attempts" >&2
+            exit 1
           fi
