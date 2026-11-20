@@ -1,0 +1,33 @@
+name: Build authentic Pochi profile animation
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pochi-profile.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  make-animation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow
+        run: python -m pip install 'Pillow>=10,<12'
+      - name: Assemble Pochi from original character sprites
+        run: python scripts/make_pochi_profile.py
+      - name: Commit animation to profile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/pochi-original.gif
+          if ! git diff --cached --quiet; then
+            git commit -m "Build profile animation from original Pochi sprites"
+            git push
+          fi
