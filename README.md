@@ -313,3 +313,14 @@ I’m still early in my academic journey, so I care more about developing **good
 **Curious enough to build · careful enough to question the result**
 
 </div>
+
+
+<!-- POCHI_PROFILE_START -->
+<div align="center">
+
+<img src="./assets/pochi-profile.svg" alt="Pochi, a tiny animated desktop companion who blinks and waves when you visit this GitHub profile" width="760" />
+
+<sub>Pochi only appears here as a profile illustration. No tracking, desktop process, or background service.</sub>
+
+</div>
+<!-- POCHI_PROFILE_END -->
