@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" role="img" aria-labelledby="title desc">
+<title id="title">Pochi, your tiny GitHub visitor</title><desc id="desc">A small round Pochi creature blinks, breathes, and waves in a cozy nook. The animation plays only while the image is displayed.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111c2d"/><stop offset="1" stop-color="#213047"/></linearGradient><linearGradient id="body" x2=".3" y2="1"><stop stop-color="#fff7e9"/><stop offset="1" stop-color="#e7d7c5"/></linearGradient><filter id="shadow"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<rect width="760" height="240" rx="22" fill="url(#bg)"/>
+<circle cx="650" cy="41" r="70" fill="#63859d" opacity=".09"/><circle cx="56" cy="213" r="70" fill="#75aca8" opacity=".08"/>
+<path d="M24 193H736" stroke="#4e647a" stroke-width="1.5" opacity=".45"/>
+<rect x="27" y="31" width="127" height="23" rx="11.5" fill="#32495d"/><circle cx="42" cy="42.5" r="4" fill="#94d5b7"/><text x="54" y="47" font-size="12" font-family="system-ui,Arial" fill="#cfe1ed">a tiny visitor</text>
+<text x="40" y="98" font-size="35" font-weight="700" letter-spacing="-.6" font-family="system-ui,Arial" fill="#f5f1e9">oh, hi. i'm pochi.</text>
+<text x="41" y="127" font-size="16" font-family="system-ui,Arial" fill="#b7c9d7">I live here now. Don't mind me.</text>
+<text x="41" y="165" font-size="12" font-family="monospace" fill="#84a6b9">usually busy doing absolutely nothing</text>
+<g transform="translate(573 13)">
+<ellipse cx="78" cy="188" rx="68" ry="11" fill="#000" opacity=".21" filter="url(#shadow)"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 1;0 -4;0 1" dur="4s" repeatCount="indefinite"/>
+<!-- feet --><ellipse cx="48" cy="174" rx="19" ry="12" fill="#e1c9b2"/><ellipse cx="107" cy="174" rx="19" ry="12" fill="#e1c9b2"/>
+<!-- ears --><path d="M35 51Q7 24 17 8Q42 12 53 36" fill="#e9d3c0"/><path d="M119 50Q146 18 137 6Q110 11 100 35" fill="#e9d3c0"/>
+<path d="M32 39Q16 24 22 15Q38 21 45 41" fill="#d5adab"/><path d="M122 38Q140 23 132 15Q117 19 108 40" fill="#d5adab"/>
+<!-- round body --><path d="M77 27C37 27 17 59 20 105C22 151 44 178 78 179C116 179 136 151 136 105C136 57 112 27 77 27Z" fill="url(#body)"/>
+<!-- blush --><ellipse cx="43" cy="112" rx="12" ry="7" fill="#efa7a4" opacity=".75"/><ellipse cx="111" cy="112" rx="12" ry="7" fill="#efa7a4" opacity=".75"/>
+<!-- eyes with blink --><g fill="#253041"><ellipse cx="55" cy="92" rx="6.5" ry="9"><animate attributeName="ry" values="9;9;1;9;9" keyTimes="0;.43;.46;.49;1" dur="5.1s" repeatCount="indefinite"/></ellipse><ellipse cx="100" cy="92" rx="6.5" ry="9"><animate attributeName="ry" values="9;9;1;9;9" keyTimes="0;.43;.46;.49;1" dur="5.1s" repeatCount="indefinite"/></ellipse></g>
+<ellipse cx="77" cy="107" rx="5" ry="3.8" fill="#a47e7f"/><path d="M71 115Q77 122 84 115" fill="none" stroke="#8d7374" stroke-width="2.6" stroke-linecap="round"/>
+<!-- left stubby arm --><path d="M20 120Q4 130 16 143" fill="none" stroke="#e4ceba" stroke-width="17" stroke-linecap="round"/>
+<!-- little wave --><g><animateTransform attributeName="transform" type="rotate" values="0 129 122;-15 129 122;9 129 122;0 129 122" keyTimes="0;.3;.65;1" dur="3.8s" repeatCount="indefinite"/><path d="M131 121Q152 107 152 91" fill="none" stroke="#e4ceba" stroke-width="17" stroke-linecap="round"/><circle cx="152" cy="91" r="10" fill="#f2e0cb"/></g>
+<!-- forehead hair tuft --><path d="M68 31Q76 15 82 29Q91 18 91 35" fill="#f8eedd"/>
+</g></g>
+<g font-family="monospace" font-size="11" fill="#91a7b9" opacity=".8"><text x="41" y="215">P.S. if I'm sleeping, you're probably doing fine.</text></g>
+</svg>
