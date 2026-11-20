@@ -318,9 +318,9 @@ I’m still early in my academic journey, so I care more about developing **good
 <!-- POCHI_PROFILE_START -->
 <div align="center">
 
-<img src="./assets/pochi-profile.svg" alt="Pochi, a tiny animated desktop companion who blinks and waves when you visit this GitHub profile" width="760" />
+<img src="./assets/pochi-original.gif" alt="The original Pochi character from the Pochi desktop companion, cycling through authentic poses and expressions" width="700" />
 
-<sub>Pochi only appears here as a profile illustration. No tracking, desktop process, or background service.</sub>
+<sub>Meet the real <a href="https://github.com/sushan5140/Pochi">Pochi</a> · Animated from the original character assets · Only displayed on this profile</sub>
 
 </div>
 <!-- POCHI_PROFILE_END -->
