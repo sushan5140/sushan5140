@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Pochi on Susan’s profile",
+  "version": "1.0.0",
+  "description": "The original Pochi walks and rests on sushan5140’s GitHub profile.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "settings.html",
+    "default_title": "Pochi settings"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/sushan5140",
+        "https://github.com/sushan5140/",
+        "https://github.com/sushan5140?*",
+        "https://github.com/sushan5140/?*"
+      ],
+      "js": [
+        "gait.js",
+        "profile.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "sprites/*.png"
+      ],
+      "matches": [
+        "https://github.com/*"
+      ],
+      "use_dynamic_url": true
+    }
+  ]
+}

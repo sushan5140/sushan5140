@@ -322,5 +322,7 @@ I’m still early in my academic journey, so I care more about developing **good
 
 <sub>Meet the real <a href="https://github.com/sushan5140/Pochi">Pochi</a> · Animated from the original character assets · Only displayed on this profile</sub>
 
+<br/><sub><a href="https://github.com/sushan5140/sushan5140/tree/main/pochi-extension">Let Pochi walk around this page</a> · Optional Chrome or Edge extension</sub>
+
 </div>
 <!-- POCHI_PROFILE_END -->
